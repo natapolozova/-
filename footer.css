@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+  }
+  
+  header img {
+    width: 160px;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: #000000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   .header__menu{
+    width: 100%;
+    flex-shrink: 0;
+   }
+   
+
+   .footer {
+    margin-top: auto;
+    padding: 30px 0;
+    border-top: 2px solid #e2e8f0;
+    background-color: #f7fafc;
+  }
+  
+  .footer__description {
+    text-align: center;
+    color: #718096;
+    line-height: 1.5;
+  }
+  

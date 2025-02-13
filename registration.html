@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.jpg" alt="Логотип школы">
+        </a>
+        <nav class="menu" aria-label="Главное меню">
+            <ul class="menu__list">
+                <li><a href="index.html" class="menu__link">Главная</a></li>
+                <li><a href="catalog.html" class="menu__link">Курсы</a></li>
+                <li><a href="vkontakte.html" class="menu__link">Отзывы</a></li>
+                <li><a href="telegrambot.html" class="menu__link">Контакты</a></li>
+                <li><a href="teachers.html" class="menu__link">Учителя</a></li>
+            </ul>
+        </nav>
+        <a href="registration.html" class="button button--login">Вход</a>
+    </div>
+</header>
+
+
+  <header class="header" > 
+    <a class="header__logo" href="index.html" style="width:200px;height:auto;">
+     <h1 class="header__title">ПРО-ОГЭ/ЕГЭ</h1>
+    </a>
+     
+   </header>
+  <main class="main">
+<h1>Вход</h1>
+<section>
+    <h2>Регистрация</h2>
+    <form action="/" method="post">
+        <input type="text" name="name" placeholder="Имя" required>
+        <input type="email" name="email" placeholder="Логин" required>
+        <fieldset>
+            <div>
+                <input type="password" name="password" placeholder="Пароль" required>
+                <span>Минимум 8 символов</span>
+            </div>
+            <input type="password" name="repeat-password" placeholder="Повторите пароль" required>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Зарегистрироваться">
+            <button type="button">Отмена</button>
+        </fieldset>
+        <button type="button">У меня уже есть аккаунт</button>
+    </form>
+</section>
+<!--/ Форма "Регистрация" -->
+<!-- Форма "Войти" -->
+<section>
+    <button type="button"><img src="images/icon/close.svg" alt="Закрыть окно" width="24" height="24"></button>
+    <h2>Войти</h2>
+    <form action="/" method="post">
+        <input type="email" name="email" placeholder="Логин" required>
+        <input type="password" name="password" placeholder="Пароль" required>
+        <fieldset>
+            <input type="submit" value="Войти">
+            <button type="button">Отмена</button>
+        </fieldset>
+        <button type="button">У меня еще нет аккаунта</button>
+    </form>
+</section>
+</main>
+<footer class="footer">
+  <p class="footer__description">Полозова Наталья, Батанова Анна, группа СТ-22, Telegram: @natashapolozova, @chaeeek
+  </p>
+</footer>
+</body>
+
+</html>

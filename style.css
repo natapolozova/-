@@ -1,0 +1,146 @@
+@import url('base.css');
+@import url('typography.css');
+@import url('layout.css');
+@import url('animations.css');
+/* ==== Шапка сайта (Header) ==== */
+.header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.header__logo img {
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header__logo img:hover {
+    transform: scale(1.1);
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu__link:hover {
+    color: #cce5ff;
+}
+
+.button--login {
+    background: white;
+    color: #007bff;
+    padding: 10px 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button--login:hover {
+    background: #cce5ff;
+    color: #0056b3;
+}
+/* ==== Главная секция с изображениями (Hero Section) ==== */
+.hero {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+.hero__slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hero__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ==== О нас (About Section) ==== */
+.about {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about__image {
+    flex: 1;
+    padding: 20px;
+}
+
+.about__img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ==== Курсы (Courses Section) ==== */
+.courses {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.courses__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.course-card {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course-card__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.course-card__title {
+    margin: 15px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.course-card__description {
+    font-size: 16px;
+    color: #555;
+}
+
+

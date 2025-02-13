@@ -1,0 +1,124 @@
+.header{
+    color: rgb(40, 87, 87);
+    text-decoration:none
+}
+.menu__link{
+    text-decoration: none;
+    color: #024a66;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .menu__link{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(49, 139, 175);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   }.menu__link--interance{
+    background-color: rgb(38, 64, 99);
+   }
+   .header__login{
+    display: inline-block;
+     padding: 10px;
+     margin: 5px;
+     background-color: rgb(95, 103, 110);
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+    }
+.header__logo-wrap{
+     display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+header__logo-wrap{
+    text-decoration: none;
+     color: rgb(4, 51, 75);
+    }
+    .header__title{
+     margin: 0;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       }
+
+       .about__button{
+        display: block;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-top: auto;
+        margin-right: auto;
+       }
+       .about__wrap-left{
+        display: flex;
+        flex-direction: column;
+       }
+       .about{
+        background-color: rgb(62, 120, 167);
+         color: rgb(255, 255, 255);
+         padding: 10px;
+        }
+       
+        
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+            border-bottom: 2px solid #e2e8f0;
+          }
+          
+          .header__logo-wrap {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+          }
+          
+          .header__title {
+            font-size: 24px;
+            line-height: 1.2;
+            color: я#1a365d;
+            text-decoration: none;
+          }
+          
+          .header__menu {
+            display: flex;
+            align-items: center;
+          }
+          
+          .menu {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+          }
+          
+          .menu__link {
+            font-size: 16px;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+          }
+          
+          .menu__link:hover {
+            background-color: #edf2f7;
+          }
+          
+          .menu__link--entrance {
+            background-color: #4299e1;
+            color: white !important;
+          }
+          
+          .menu__link--entrance:hover {
+            background-color: #3182ce;
+          }
